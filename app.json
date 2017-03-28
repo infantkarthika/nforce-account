@@ -1,0 +1,6 @@
+{
+  "name": "SEAN stack Contacts CRUD app",
+  "description": "",
+  "repository": "https://github.com/shashforce/seanstack",
+  "keywords": ["node", "express", "angular", "SEAN", "Salesforce", "REST", "API"]
+}

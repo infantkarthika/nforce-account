@@ -1,0 +1,29 @@
+<div class="row" ng-hide="account.id">
+  <div class="col-md-6">
+      <h2>Create new Lead</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <p>
+      <label>Name (required)</label> 
+      <input id="name" class="form-control" type="text" ng-model="account.name" required>
+    </p>
+    <p>
+      <label>Phone (Work)</label> 
+      <input id="name" class="form-control" type="text" ng-model="account.phone_num__c">
+    </p>
+    <p>
+      <label>Website</label> 
+      <input id="name" class="form-control" type="text" ng-model="account.website">
+    </p>
+    <!-- <p>
+      <label>Address</label> 
+      <input id="name" class="form-control" type="text" ng-model="account.billingstreet">
+    </p> -->
+    <p>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="saveAccount(account)">Save</button>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="back()">Back</button>
+    </p>
+  </div>
+</div>
